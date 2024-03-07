@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Scooters</title>
+  <link rel="icon" href="images/1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<body>
+  <!-- for cart -->
+  <div class="cart1">
+    <div class="head">
+      <h3>shopping cart</h3>
+      <span class="material-symbols-outlined close">
+        close
+      </span>
+    </div>
+    <p class="item-bag">No items</p>
+    <button class="redirect" onclick="go()">Shop</button>
+  </div>
+  <!-- for cart -->
+
+  <!--for form-->
+
+  <form class="form">
+    <p class="form-title">Sign in to your account</p>
+    <div class="input-container">
+      <input placeholder="Enter email" type="email">
+      <span>
+        <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+            stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+      </span>
+    </div>
+    <div class="input-container">
+      <input placeholder="Enter password" type="password">
+
+      <span>
+        <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+          </path>
+          <path
+            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+            stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+      </span>
+    </div>
+    <div class="input-container1">
+      <input placeholder="Confirm password" type="password">
+
+      <span>
+        <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+          </path>
+          <path
+            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+            stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+        </svg>
+      </span>
+    </div>
+    <button class="submit">
+      Sign In
+    </button>
+    <p class="signup-link">
+      No account?
+      <span style="cursor: pointer; color: blue;" id="signUp">Sign Up</span>
+    </p>
+
+
+  </form>
+
+
+  <!--foen end -->
+
+
+  <section class="one">
+    <header>
+      <nav class="navbar">
+        <div class="nav-links">
+          <ul>
+            <li><a href="shop.html">Shop All</a></li>
+            <li><a href="scooter.html">Electric Scooters</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="name">
+          <h3><a href="index.html">ELECTRIC</a></h3>
+          <h1><a href="index.html">SCOOTERS</a></h1>
+        </div>
+
+        <div class="icons">
+          <div class="search">
+            <input type="text" placeholder="Search Products">
+            <button><a href="#">></a></button>
+          </div>
+          <span class="material-symbols-outlined" id="main">
+            shopping_cart
+          </span>
+          <span class="material-symbols-outlined" id="user">
+            person
+          </span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="left">
+        <div class="left-top">
+          <h1>Libero X250</h1>
+          <h4>250 Watt Electric Scooter</h4>
+        </div>
+
+        <div class="left-center">
+          <h4>Informations:</h4>
+          <div class="character">
+            <div class="box battery">
+              <h1>30</h1>
+              <h1>Km</h1>
+              <p>Battery</p>
+            </div>
+            <div class="box weight">
+              <h1>30</h1>
+              <h1>Kg</h1>
+              <p>Weight</p>
+            </div>
+            <div class="box speed">
+              <h1>60 </h1>
+              <h1>Km/h</h1>
+              <p>Speed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="price">
+          <span class="price1">Rs.50000.99</span>
+          <button class="cartBtn"><a href="addTocart.html" style="text-decoration: none; color: white;">ADD TO CART</a></button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="description">
+          <h2>Description</h2>
+          <p>The Fully Loaded Libero x250 is a High Performance, Extremely Durable, High Speed, Lightweight
+            Electric Scooter with a Huge Battery</p>
+        </div>
+        <ul class="social">
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6 12C6 15.3137 8.68629 18 12 18C14.6124 18 16.8349 16.3304 17.6586 14H12V10H21.8047V14H21.8C20.8734 18.5645 16.8379 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C15.445 2 18.4831 3.742 20.2815 6.39318L17.0039 8.68815C15.9296 7.06812 14.0895 6 12 6C8.68629 6 6 8.68629 6 12Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12Z"
+                  fill="currentColor"></path>
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5 1C2.79086 1 1 2.79086 1 5V19C1 21.2091 2.79086 23 5 23H19C21.2091 23 23 21.2091 23 19V5C23 2.79086 21.2091 1 19 1H5ZM19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                  fill="currentColor"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="top">
+      <div class="item1">
+        <div class="image">
+          <img src="images/1.jpg" alt="">
+        </div>
+        <div class="price">
+          <h3>Booster Brave F1</h3>
+          <div>
+            <span style="text-decoration: line-through;display: inline;color: gray;">$500.9</span><span> $399.99</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="item1">
+        <div class="image">
+          <img src="images/11.jpg" alt="">
+        </div>
+        <div class="price">
+          <h3>Goodlock J10</h3>
+          <div>
+            <span style="text-decoration: line-through;display: inline;color: gray;">$100.9</span><span> $50.99</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="item1">
+        <div class="image">
+          <img src="images/3.jpg" alt="">
+        </div>
+        <div class="price">
+          <h3>Libero Brave F12</h3>
+          <div>
+            <span style="text-decoration: line-through;display: inline;color: gray;">$500.9</span><span> $399.99</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="item1">
+        <div class="image">
+          <img src="images/4.jpg" alt="">
+        </div>
+        <div class="price">
+          <h3>Booster xx F1</h3>
+          <div>
+            <span style="text-decoration: line-through;display: inline;color: gray;">$500.9</span><span> $399.99</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="look">
+      <div class="line" style="width: 2px;height: 50px;background-color: red;"></div>
+      <h3 style="color: gray;">About Us</h3>
+      <h1 style="width: 600px;text-align: center;font-size: 40px;">If you’re looking for a brand new electric scooter,
+        you’re in the right place</h1>
+      <span style="text-align: center;font-size: 20px;">We are the most trusted Electric scooter brand in Nepal.
+        Providing environmental friendly Scooters since 2000. <br> Stated with the motive of conserving
+        Environment.</span>
+    </div>
+
+  </section>
+
+  <section class="two">
+    <div class="solo-img">
+      <img src="/Website/images/10.jpg" alt="">
+      <h6>City</h6>
+      <h2>Electric Scooter Zoomer400</h2>
+      <span style="color: red;font-weight: 600;">$500</span>
+    </div>
+
+    <div class="signature">
+      <h1 style="font-size: 50px;color: red;">" "</h1>
+      <p style="font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus in expedita
+        necessitatibus at ab magni corporis <br> delectus nulla distinctio, quasi aliquid nobis architecto possimus
+        dolorem?</p>
+      <img src="/Website/images/signature.png" alt="">
+    </div>
+
+    <div class="helmet">
+      <div class="left-accessories">
+        <h1 style="width: 600px;font-size: 40px;">Shop Electric Scooter Accessories</h1>
+        <p style="width: 500px;text-align: left; color: rgb(95, 90, 90);">Shop orginal Accessories from trusted brands.
+          Manufactured with 100% trusted raw materials and advance technology to ensure proper safety to your ride. </p>
+        <button><a href="shop.html">Shop</a></button>
+
+      </div>
+      <div class="helmet-img">
+        <img src="/Website/images/helmet.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="three">
+    <div class="another-scooter">
+      <span style="color: gray;font-weight: 600;">$560</span>
+      <h1>Hiboy Y100</h1>
+      <p>Best Scooter of the year. It is capable of running 60 km in one full charge. Upgraded with best battery and
+        metal.</p>
+      <button><a href="shop.html">Shop Now</a></button>
+    </div>
+  </section>
+  <footer>
+    <div class="top-footer">
+      <div class="info">
+        <div>
+          <h4>ELECTRIC</h4>
+          <h3>SCOOTERS</h3>
+          <p>Built with the intention of saving humanity from environmental pollution.</p>
+        </div>
+        <div class="icon-container">
+          <button><svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" id="Layer_21"
+              height="24" data-name="Layer 21">
+              <title></title>
+              <path d="M16.75,9H13.5V7a1,1,0,0,1,1-1h2V3H14a4,4,0,0,0-4,4V9H8v3h2v9h3.5V12H16Z"></path>
+            </svg></button>
+          <button><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+              </path>
+            </svg></button>
+          <button><svg class="icon" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve" width="56.693px" viewBox="0 0 56.693 56.693" version="1.1" id="Layer_1"
+              height="56.693px">
+              <path
+                d="M52.837,15.065c-1.811,0.805-3.76,1.348-5.805,1.591c2.088-1.25,3.689-3.23,4.444-5.592c-1.953,1.159-4.115,2-6.418,2.454  c-1.843-1.964-4.47-3.192-7.377-3.192c-5.581,0-10.106,4.525-10.106,10.107c0,0.791,0.089,1.562,0.262,2.303  c-8.4-0.422-15.848-4.445-20.833-10.56c-0.87,1.492-1.368,3.228-1.368,5.082c0,3.506,1.784,6.6,4.496,8.412  c-1.656-0.053-3.215-0.508-4.578-1.265c-0.001,0.042-0.001,0.085-0.001,0.128c0,4.896,3.484,8.98,8.108,9.91  c-0.848,0.23-1.741,0.354-2.663,0.354c-0.652,0-1.285-0.063-1.902-0.182c1.287,4.015,5.019,6.938,9.441,7.019  c-3.459,2.711-7.816,4.327-12.552,4.327c-0.815,0-1.62-0.048-2.411-0.142c4.474,2.869,9.786,4.541,15.493,4.541  c18.591,0,28.756-15.4,28.756-28.756c0-0.438-0.009-0.875-0.028-1.309C49.769,18.873,51.483,17.092,52.837,15.065z">
+              </path>
+            </svg></button>
+        </div>
+      </div>
+      <div class="contct-us">
+        <h3>Contact-us</h3>
+        <span>Email: </span><a href="https://www.gmail.com">escooter112@gmail.com</a>
+        <p>Phone:+977 9865745520 </p>
+        <span>Location:New buspark Kathmandu, Nepal </span>
+      </div>
+      <div class="useful-links">
+        <h3>Useful Links</h3>
+        <ol>
+          <li><a href="shop.html">Shop All</a></li>
+          <li><a href="scooter.html">Electric Scooters</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ol>
+      </div>
+
+      <div class="signup">
+        <h3>Signup for special offers</h3>
+        <input type="email" placeholder="Email Address">
+        <button class="Subscribe"><a href="#">Subscribe</a></button>
+      </div>
+    </div>
+    <div class="bot-footer">
+      <p>Electric Scooters. © 2024</p>
+      <img src="images/payment-icons.png" alt="">
+    </div>
+  </footer>
+</body>
+
+<script src="login.js"></script>
+<script src="signUp.js"></script>
+<script src="cart.js"></script>
+<script src="submit.js"></script>
+<script src="navigate.js"></script>
+
+</html>

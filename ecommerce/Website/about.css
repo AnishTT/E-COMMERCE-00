@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+.one {
+    width: 100%;
+    background-color: white;
+
+}
+body{
+  width: 100%;
+  background: url("/Website/images/waldemar-GZ7L5JMl9o8-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+
+}
+
+nav {
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    height: 13vh;
+    box-shadow: 1px 1px 1px rgb(231, 229, 229);
+    padding: 0 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    width: 450px;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.nav-links ul li a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #262626;
+    border-bottom: 2px solid #262626;
+    transform: scaleY(2);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.nav-links ul li a:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+ul li a:hover:before {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+ul li a:hover:after {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons input {
+    height: 42px;
+    width: 200px;
+    text-align: left;
+    padding-left: 15px;
+    border: 1px solid rgb(197, 190, 190);
+}
+
+.icons:nth-child(3) {
+    color: rgb(218, 20, 20);
+}
+.icons:nth-child(3) {
+  cursor: pointer;
+}
+.icons:nth-child(4) {
+  cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search button {
+    height: 40px;
+    width: 30px;
+    background-color: rgb(218, 20, 20);
+    border-radius: 5px;
+    border: none;
+}
+
+.search button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.name {
+    width: 20%;
+    text-align: left;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+}
+
+.name h3 {
+    padding-left: 40px;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+
+.name h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.one{
+height: 250vh;
+width: 100%;
+background-color: white;
+}
+.one .hero{
+  letter-spacing: 2px;
+  font-size: 30px;
+  width: 100%;
+  padding: 100px 400px 10px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.hero span{
+  text-align: center;
+}
+
+.founders{
+  height: 100vh;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+
+}
+.left-info{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-image{
+  width: 50%;
+  background: url("/Website/images/anish.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.value{
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.line{
+  width: 1px;
+  height: 60px;
+  background-color: red;
+}
+.value p{
+  font-size: 30px;
+  width: 800px;
+  text-align: center;
+}
+
+/**************footer***/
+
+footer{
+  margin-top: 100vh;
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(236, 245, 245);
+}
+.top-footer{
+  padding: 50px;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.top-footer > div{
+  line-height: 30px;
+  width: 20%;
+  padding: 20px;
+}
+.top-footer > div ol{
+  list-style: none;
+}
+.top-footer > div a{
+  text-decoration: none;
+  color: red
+}
+.top-footer > div input{
+  height: 40px;
+  border: 1px dotted red;
+}
+
+
+.top-footer .Subscribe{
+  width: 100px;
+  height: 40px;
+  background-color: rgb(39, 34, 34);
+  border: none;
+  border-radius: 5px;
+}
+
+.top-footer .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 25%;
+  height: 200px;
+  padding: 20px;
+}
+/*footer icons*/
+.container {
+  position: relative;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #313638;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.container button:nth-child(1):hover {
+  background-color: #2753a7;
+}
+
+.container button:nth-child(2):hover {
+  background-color: #cd242b;
+}
+
+.container button:nth-child(3):hover {
+  background-color: #55acee;
+}
+
+.title {
+  color: gray;
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;*/
+.signup{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.signup input{
+  padding: 4px;
+}
+
+.bot-footer{
+  padding: 0 20px;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
