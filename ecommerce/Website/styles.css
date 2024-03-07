@@ -156,7 +156,7 @@ ul li a:hover:after {
     width: 100%;
     height: 87vh;
     padding: 47px;
-    background: url("/Website/images/scooter-01.png");
+    background: url("/ecommerce/Website/images/scooter-01.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -443,7 +443,7 @@ ul li a:hover:after {
   .two{
     padding-top: 400px;
     height: 350vh;
-    background: url("/Website/images/waldemar-GZ7L5JMl9o8-unsplash.jpg");
+    background: url("/ecommerce/Website/images/waldemar-GZ7L5JMl9o8-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -511,7 +511,7 @@ ul li a:hover:after {
   .three{
     height: 150vh;
     width: 100%;
-    background: url("/Website/images/4bgg.jpg");
+    background: url("/ecommerce/Website/images/4bgg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
